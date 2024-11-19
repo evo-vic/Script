@@ -5,7 +5,7 @@ rm -rf .repo/local_manifests/
 # Initialize ROM manifest
 repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 # repo sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+/opt/crave/resync.sh
 rm -rf device/xiaomi/mojito
 rm -rf packages/resources/devicesettings
 # cloning DT
