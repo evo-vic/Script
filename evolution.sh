@@ -6,8 +6,6 @@ rm -rf .repo/local_manifests/
 repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 # repo sync
 /opt/crave/resync.sh
-rm -rf device/xiaomi/mojito
-rm -rf packages/resources/devicesettings
 # cloning DT
 # device tree
 git clone https://github.com/EvolutionXA15/device_xiaomi_mojito.git --depth 1 -b mojito-universe device/xiaomi/mojito
