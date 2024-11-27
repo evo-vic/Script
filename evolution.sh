@@ -17,7 +17,7 @@ git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito.git --
 git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
 # hardware tree
 git clone https://github.com/EvoXA15/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
-git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito-leicacamera.git
+git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito-leicacamera.git -b main vendor/xiaomi/mojito-leicacamera
 # set build environment
 . build/envsetup.sh
 # lunch
